@@ -15,7 +15,7 @@
         <!-- Eager Plugins Script-->
         <script src="//fast.eager.io/TWczeyfqCXgH.js"></script>
         <meta charset="UTF-8">
-        <title>REDHOLT Reporting Deck | MICROSOFT Weekly Report</title>
+        <title>REDHOLT  | MICROSOFT Weekly Report</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- Bootstrap 3.3.4 -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -721,9 +721,9 @@
                         var tabledata = transport.responseText;
                         $('#reportDates').html(tabledata);
 
-                        reportfileDate = "31July2015";
+                        reportfileDate = "31July2016";
                         reportdate = "1992-03-20";
-                        $("#reportDateLabel").html("31 July 2015");
+                        $("#reportDateLabel").html("31 July 2016");
 
 
                         $('#optionsDiv').smartmenus();
@@ -755,7 +755,7 @@
 
                         new Ajax.Request('getTable_Gold_LexisNexisIndia_WeeklySummary', {
                             method: 'get',
-                            parameters: {reportdate: "2015-07-31"},
+                            parameters: {reportdate: "2016-07-31"},
                             onSuccess: function (transport) {
                                 var tabledata = transport.responseText;
                                 $('#WeeklySummaryTable').html(tabledata);
@@ -954,7 +954,7 @@
                         });
                         new Ajax.Request('getTable_Gold_LexisNexisIndia_Trends', {
                             method: 'get',
-                            parameters: {reportdate: "2015-07-31"},
+                            parameters: {reportdate: "2016-07-31"},
                             onSuccess: function (transport) {
                                 var tabledata = transport.responseText;
                                 $('#TrendsTable').html(tabledata);
@@ -1099,14 +1099,14 @@
                         });
                         new Ajax.Request('getData_Gold_LexisNexisIndia_Trends', {
                             method: 'get',
-                            parameters: {reportdate: "2015-07-31"},
+                            parameters: {reportdate: "2016-07-31"},
                             onSuccess: function (transport) {
                                 data5 = transport.responseText.evalJSON();
                                 datajson5 = JSON.stringify(data5);
 
                                 new Ajax.Request('getGraph_Gold_LexisNexisIndia_Trends', {
                                     method: 'get',
-                                    parameters: {reportdate: "2015-07-31"},
+                                    parameters: {reportdate: "2016-07-31"},
                                     onSuccess: function (transport) {
                                         graphs5 = transport.responseText.evalJSON();
                                         graphsjson5 = JSON.stringify(graphs5);

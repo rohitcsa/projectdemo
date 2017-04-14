@@ -66,10 +66,7 @@
             <header class="main-header">
                 <!-- Logo -->
                 <a href="index.html" class="logo">
-                    <!-- mini logo for sidebar mini 50x50 pixels -->
-                    <span class="logo-mini"><img src="dist/img/NP_icon2.png" alt="NP"/></span>
-                    <!-- logo for regular state and mobile devices -->
-                    <span class="logo-lg"><b>REDHOLT</b>ReportDeck</span>
+                    
                 </a>
                 <!-- Header Navbar: style can be found in header.less -->
                 <nav class="navbar navbar-static-top" role="navigation">
@@ -77,6 +74,7 @@
                     <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                         <span class="sr-only">Toggle navigation</span>
                     </a>
+                    <span class="logo-lg"> <font style="color:#E20D0D;font-size:35px;font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;"><b>RED</b>HOLT</font></span>
                     <div class="navbar-custom-menu">
                         <ul class="nav navbar-nav">
                             <!-- User Account: style can be found in dropdown.less -->
@@ -161,7 +159,7 @@
                             <br>
                         </div>
                         <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038; color: #FFFFFF" align="center">DEMO PURPOSE</div>
-                        <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038" >
+                        <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038" hidden>
                             <div class="col-lg-l2" id="floatDiv" id="optionsDivMain" align="center" style="z-index: 100; display: table;">
                                 <ul  id="optionsDiv" class="sm sm-simple"  style="z-index: 101">
                                     <li><a href="#" onclick="downloadReport()">DOWNLOAD REPORT</a></li>
@@ -679,9 +677,9 @@
                         var tabledata = transport.responseText;
                         $('#reportDates').html(tabledata);
 
-                        reportfileDate = "31July2015";
+                        reportfileDate = "31July2016";
                         reportdate = "1992-03-20";
-                        $("#reportDateLabel").html("Q2: April - June 2015");
+                        $("#reportDateLabel").html("Q2: April - June 2016");
 
                         $('#optionsDiv').smartmenus();
 

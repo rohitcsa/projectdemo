@@ -160,7 +160,7 @@
                             <br>
                         </div>
                         <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038; color: #FFFFFF" align="center">DEMO PURPOSE</div>
-                        <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038" hidden>
+                        <div class="col-lg-12" style="padding-top: 9px; padding-bottom: 9px; background-color: #243038" hidden >
                             <div class="col-lg-l2" id="floatDiv" id="optionsDivMain" align="center" style="z-index: 100; display: table;">
                                 <ul  id="optionsDiv" class="sm sm-simple"  style="z-index: 101">
                                     <li><a href="#" onclick="downloadReport()">DOWNLOAD REPORT</a></li>
@@ -583,7 +583,7 @@
 
                         reportfileDate = "31July2015";
                         reportdate = "1992-03-20";
-                        $("#reportDateLabel").html("31 July 2015");
+                        $("#reportDateLabel").html("31 July 2016");
 
 
                         $('#optionsDiv').smartmenus();
@@ -670,7 +670,7 @@
                         });
                         new Ajax.Request('getTable_Gold_LexisNexisIndia_WeeklySummary', {
                             method: 'get',
-                            parameters: {reportdate: "2015-07-31"},
+                            parameters: {reportdate: "2016-07-31"},
                             onSuccess: function (transport) {
                                 var tabledata = transport.responseText;
                                 $('#WeeklySummaryTable').html(tabledata);
@@ -696,7 +696,7 @@
                         });
                         new Ajax.Request('getTable2_Gold_LexisNexisIndia_Tracker', {
                             method: 'get',
-                            parameters: {reportdate: '1992-03-20'},
+                            parameters: {reportdate: '2016-03-20'},
                             onSuccess: function (transport) {
                                 var tabledata = transport.responseText;
                                 $('#Tracker2Table').html(tabledata);

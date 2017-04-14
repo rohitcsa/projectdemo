@@ -15,7 +15,7 @@
         <!-- Eager Plugins Script-->
         <script src="//fast.eager.io/TWczeyfqCXgH.js"></script>
         <meta charset="UTF-8">
-        <title>REDHOLT Reporting Deck | MICROSOFT Annual Report</title>
+        <title>REDHOLT  | MICROSOFT Annual Report</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- Bootstrap 3.3.4 -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -137,7 +137,7 @@
                 <section class="content-header">
                     <ol class="breadcrumb">
                         <li><a href="dashboard.jsp"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-                        <li class="active"> Eddystone Annual</li>
+                        <li class="active"> MICROSOFT Annual</li>
                     </ol>
                 </section>
 
@@ -148,9 +148,9 @@
                         <div class="col-lg-12" align="center">
                              <font style="color:#E20D0D;font-size:45px;font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;"><b>RED</b>HOLT</font>
                             <h3 style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif">
-                                Eddystone Tracker
+                                MICROSOFT Tracker
                                 <!--(<font style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif" id="reportDateLabel"></font>)-->
-                                (<font style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif">Year: 2015</font>)
+                                (<font style="font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif">Year: 2016</font>)
                                 &nbsp;
                                 <img src="dist/img/goldIcon.png" data-original-title="Gold - Annual" data-toggle="tooltip" style="padding-bottom: 0.2%"/>
                             </h3>
@@ -553,7 +553,7 @@
                                             </thead>
                                             <tbody> 
                                                 <tr>
-                                                    <td align="center" class="warning"><span class="info-box-text"><b>01-Jan-2015</b></span></td>
+                                                    <td align="center" class="warning"><span class="info-box-text"><b>01-Jan-2016</b></span></td>
                                                     <td align="center"><span class="info-box-text"><b>50</b></span></td>
                                                     <td align="center"><span class="info-box-text"><b>4.17</b></span></td>
                                                     <td align="center"><span class="info-box-text"><b>50</b></span></td>
@@ -1010,9 +1010,9 @@
 
                 //reportfileDate = $('[name=lastReportDate]').text().replace(/ /g, '');
                 //reportdate = $('[name=lastReportDate]').attr('id');
-                reportfileDate = '2015';
+                reportfileDate = '2016';
                 //reportdate = '1992-03-20';
-                $("#reportDateLabel").html("2015");
+                $("#reportDateLabel").html("2016");
                 $('#optionsDiv').smartmenus();
                 $("#emailList").tagsInput({
                     'height': '80px',
